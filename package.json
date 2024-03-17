@@ -1,0 +1,18 @@
+{
+    "name": "universal-twobyte",
+    "packageManager": "yarn@4.1.1",
+    "type": "module",
+    "workspaces": [
+        "packages/*",
+        "services/*",
+        "tools/*"
+    ],
+    "dependencies": {
+        "dotenv": "^16.4.5"
+    },
+    "scripts": {
+        "start": "yarn workspace @psi/twobyte run start",
+        "deploy": "yarn workspace @psi/twobyte run deploy",
+        "build": "yarn workspace @psi/dynamic-dockerfiles run build"
+    }
+}

@@ -1,0 +1,4 @@
+services:
+  twobyte:
+    image: psi/twobyte
+    restart: always

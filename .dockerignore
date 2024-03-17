@@ -1,0 +1,16 @@
+*
+
+!*.json
+!yarn.lock
+!.yarnrc.yml
+!.yarn/releases
+!packages
+!services
+!docker-entrypoint.sh
+
+**/.editorconfig
+**/.dockerignore
+**/.git
+**/.DS_Store
+**/.vscode
+**/node_modules
