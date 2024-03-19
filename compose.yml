@@ -2,3 +2,5 @@ services:
   twobyte:
     image: psi/twobyte
     restart: always
+    env_file:
+      - .env
